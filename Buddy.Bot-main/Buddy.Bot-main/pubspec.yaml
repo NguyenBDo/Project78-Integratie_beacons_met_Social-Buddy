@@ -1,0 +1,47 @@
+name: buddy_bot
+description: Social Buddy Bot with following eyes making use of pose-detection
+
+publish_to: "none"
+
+version: 1.0.1+3
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=3.0.0 <4.0.0"
+
+dependencies:
+  auth_repository:
+    path: packages/auth_repository
+  bloc: 8.0.3
+  body_detection: ^0.0.3
+  calendar_events_repository:
+    path: packages/calendar_events_repository
+  camera: ^0.9.6
+  cupertino_icons: ^1.0.4
+  equatable: 2.0.3
+  file_picker: ^4.5.1
+  firebase_core: 1.17.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: 8.0.1
+  flutter_launcher_icons: ^0.9.3
+  font_awesome_flutter: 10.1.0
+  gap: ^3.0.0
+  meta: ^1.7.0
+  permission_handler: ^9.2.0
+  rive: ^0.8.4
+  teachable: ^0.0.2
+  text_to_speech: ^0.2.3
+
+dev_dependencies:
+  flutter_lints: ^1.0.4
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: 3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/new_eyes_pose_animation.riv
+    - assets/buddybotwithhands.riv
