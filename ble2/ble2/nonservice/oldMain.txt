@@ -1,0 +1,79 @@
+
+// class _BleScannerState extends State<BleScanner> {
+//   FlutterBluePlus flutterBlue = FlutterBluePlus();
+//   List<ScanResult> scanResults = [];
+
+//   @override
+//   void initState() {
+//     super.initState();
+//     startScanning();
+//   }
+
+//   void startScanning() async {
+//     await FlutterBluePlus.startScan(timeout: const Duration(seconds: 4), androidUsesFineLocation: true);
+//     FlutterBluePlus.scanResults.listen((results) {
+//       setState(() {
+//         // scanResults = results;
+//         scanResults = results.where((result) =>
+//             result.advertisementData.serviceUuids.isNotEmpty &&
+//             result.advertisementData.connectable).toList();
+//       });
+//     });
+//   }
+
+//   Future<void> connectToDevice(BluetoothDevice device) async {
+//       await device.connect();
+//   }
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(
+//         title: const Text('BLE Scanner'),
+//       ),
+//       body: ListView.builder(
+//         itemCount: scanResults.length,
+//         itemBuilder: (context, index) {
+//           final result = scanResults[index];
+//           final device = result.device;
+//           final deviceName = device.platformName.isEmpty ? 'Unknown' : device.platformName;
+//           final localName = result.advertisementData.advName.isEmpty ? 'Unknown' : result.advertisementData.advName;
+//           final rssi = result.rssi;
+//           final id = device.remoteId.toString();
+//           final isTilePro = id.contains('D4:91:26:AA:E9:2D');
+//           final serviceUuids = result.advertisementData.serviceUuids;
+//           final txPowerLevel = result.advertisementData.txPowerLevel;
+//           final connectable = result.advertisementData.connectable;
+
+//           return ListTile(
+//             title: Text(deviceName),
+//             subtitle: Column(
+//               crossAxisAlignment: CrossAxisAlignment.start,
+//               children: [
+//                 Text('Local Name: $localName'),
+//                 Text('Device ID: $id'),
+//                 Text('RSSI: $rssi dBm'),
+//                 Text('Service UUIDs: $serviceUuids'),
+//                 Text('Tx Power Level: $txPowerLevel'),
+//                 Text('Connectable: $connectable'),
+//               ],
+//             ),
+//             // Highlight Tile Pro tag by changing its appearance
+//             tileColor: isTilePro ? Colors.greenAccent : null,
+//             trailing: ElevatedButton(
+//               child: Text('Connect'),
+//               onPressed: () => connectToDevice(device),
+//             )
+//             // onTap: () => connectToDevice(device), // Connect to the device
+//           );
+//         },
+//       ),
+//     );
+//   }
+
+//   @override
+//   void dispose() {
+//     FlutterBluePlus.stopScan();
+//     super.dispose();
+//   }
+// }
