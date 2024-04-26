@@ -1,0 +1,1 @@
+# This folder is meant to keep all the photos, illustrations, vector graphics, etc. central, so they can be used in the README(s) in the other folders.
