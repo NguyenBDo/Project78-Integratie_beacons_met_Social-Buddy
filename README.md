@@ -41,7 +41,7 @@ Demovideo: <b> LINK </b> and it is in the `Documentation` directory.
 
 ### PROJECT VERSION
 ---
-| Version 	| Chance     	| End date (dd/mm/jjjj)	    |
+| Version 	| Chance     	| End date (dd/mm/yyyy)	    |
 | :-------:	| :-----------:	| :-----------------------: |
 | 01		| 		01		| 02/06/2024 				|
 <!-- | 02  	 	| Retake (02)   | 30/06/2024				| -->
