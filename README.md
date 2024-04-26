@@ -18,7 +18,7 @@ In this repository, you can find the source code of the Flic button and the tag;
 ### PROJECT INFORMATION
 ---
 
-<img src="./README_media/po-vector-graphics.jpg" alt="po-vector-graphics" width="16"/> 
+<img src="./README_media/PO-vector-graphics.jpg" alt="po-vector-graphics" width="16"/> 
 Product owner: <br>
 
 	-  Jack Jagt
