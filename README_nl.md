@@ -1,4 +1,4 @@
-# Integrating beacons with Social Buddy
+# Integratie beacons met Social-Buddy 
 
 De hele documentatie is alleen in het engels geschreven, behalve een paar die zijn bedoeld voor specifieke doelgroepen, die worden in beide talen geschreven. <br>
 > For English, please visit `README.md`.
