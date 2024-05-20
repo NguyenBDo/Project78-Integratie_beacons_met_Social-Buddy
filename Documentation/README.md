@@ -1,5 +1,4 @@
 ### MAP INFORMATIE
----
 Deze map is gebruikt voor het bijhouden van de documentatie tijdens het project. Hier bevat geen code bestanden, die staan in <b>[Source_Code](../Source_Code/)</b> bestand.
 
 

@@ -15,6 +15,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false, // debug banner toggle
+      title: "BLE connection application",
       home: BleDeviceList(),
       // home: BleScanner()
     );

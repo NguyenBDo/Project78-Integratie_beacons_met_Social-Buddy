@@ -5,10 +5,13 @@ import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 import 'dart:async';
 import 'dart:math';
 
+import '../service/reconnect_data_serice.dart';
+
 class BleDeviceInfo extends StatefulWidget {
   const BleDeviceInfo({Key? key, required this.result}) : super(key: key);
 
   final ScanResult result;
+  
 
   @override
   State<BleDeviceInfo> createState() => _BleDeviceInfoState();
@@ -20,15 +23,22 @@ class _BleDeviceInfoState extends State<BleDeviceInfo> {
   List<String> serviceUuids = [];
   bool doReconnect = false;
   int rssiAdaptive = 0;
+  int previousRssi = -10000;
   int reconnectAttempts = 0;
   final int maxReconnectAttempts = 3;
   double distanceValue = 0.0;
   bool isDisconnectedHandled = false;
+  final int TX_POWER = -53;
+  final double N_VALUE = 3.3;
+
+
+  ReconnectDataService reconnectDataService = ReconnectDataService();
 
   @override
   void initState() {
     super.initState();
     initDevice();
+    _retrieveAutoReconnectStatus();
   }
 
   void initDevice() {
@@ -175,7 +185,7 @@ class _BleDeviceInfoState extends State<BleDeviceInfo> {
           child: Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
-              'Distance: ${distance(rssiAdaptive, -59)}',
+              'Distance: ${widget.result.device.isConnected ? "[C]${distance(rssiAdaptive, TX_POWER, N_VALUE)}" : "[NC]${distance(rssiAdaptive, TX_POWER, N_VALUE)}"}',
               style: TextStyle(fontSize: scaledValueWidth),
               textAlign: TextAlign.left,
             ),
@@ -222,9 +232,18 @@ class _BleDeviceInfoState extends State<BleDeviceInfo> {
     final ElevatedButton autoReconnectButton = ElevatedButton(
       onPressed: () {
         if (!widget.result.advertisementData.connectable) return;
+        
+
         setState(() {
           doReconnect = !doReconnect;
         });
+
+        if (doReconnect) {
+          reconnectDataService.setAutoReconnect(deviceId, true);
+        }
+        else {
+          reconnectDataService.setAutoReconnect(deviceId, false);
+        }
       },
       style: ButtonStyle(
         backgroundColor: MaterialStateProperty.all(
@@ -264,6 +283,18 @@ class _BleDeviceInfoState extends State<BleDeviceInfo> {
     );
   }
 
+  void _retrieveAutoReconnectStatus() async {
+    // Retrieve the auto-reconnect status from ReconnectDataService
+    bool? reconnectStatus =
+        await reconnectDataService.getDeviceReconnectionStatus(widget.result.device.remoteId.toString());
+    if (reconnectStatus != null) {
+      // Update the state of doReconnect based on the retrieved status
+      setState(() {
+        doReconnect = reconnectStatus;
+      });
+    }
+  }
+
   // |-----------------------| \\
   // | connect to BLE device | \\
   // |-----------------------| \\
@@ -286,7 +317,7 @@ class _BleDeviceInfoState extends State<BleDeviceInfo> {
         isConnecting = false;
         isConnected = true;
         rssiAdaptive = rssi;
-        distanceValue = distance(rssiAdaptive, -59);
+        distanceValue = distance(rssiAdaptive, TX_POWER, N_VALUE);
         isDisconnectedHandled = false;
       });
 
@@ -389,9 +420,9 @@ class _BleDeviceInfoState extends State<BleDeviceInfo> {
   // | distance calculation | \\
   // |----------------------| \\
   /// calculate distance from RSSI and TX Power, by Khizer
-  double distance(int rssi, int txPower) {
+  double distance(int rssi, int txPower, double N) {
     // print('$rssi, $txPower');
-    var result = pow(10.0, ((txPower - rssi)) / (10.0 * 2.0)).toDouble();
+    double result = pow( 10.0, ( (txPower - rssi) / (10.0 * N) ) ).toDouble();
     // print(result);
     return result;
   }
