@@ -1,16 +1,35 @@
-# ble2
+# BLE2
 
-A new Flutter project.
+This is an application with which you can connect to a BLE device
+using Flutter/Dart. This is meant to be implemented in the
+`Social Buddy bot application`, which is installed on tablets that 
+are in the hands of the elderly. This is not to be confused with the
+`Companion application`, which is used by the caregiver.
 
-## Getting Started
+This application has an interface in which 
+a list of BLE devices will be shown. It can be filtered by:
+- Connectability of the device. `[Yes/No]`
 
-This project is a starting point for a Flutter application.
+It can be refreshed manually with the `refresh button` in the upper
+right corner.
 
-A few resources to get you started if this is your first Flutter project:
+## General information
+For user(elerly/patient) guide, you can take a look at 
+[`User_guide_user`](../../Documentation/Guides/) 
+and the guide for caretakers is in the same folder/directory 
+[`User_guide_caregiver`](../../Documentation/Guides/).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+There is also a [`flowchart`](../../Documentation/Diagrams/) for the code.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Important files
+
+File/Folder   	                                                    | Description 	
+:------------------------------------------------------------------ | :------------	
+[`lib/`](./lib/)                                                    | Main dart code folder, starts at [main.dart](./lib/main.dart)
+[`lib/src/ble/`](lib/src/ble/)                                      | Contains code for Flutter's app
+[`lib/src/service/`](lib/src/service/)                              | Contains service to for other main codes for Flutter's app
+[`pubspec.yaml`](./pubspec.yaml)                                    | Flutter project's packets manager 
+[`build.gradle`](./android/app/build.gradle)                        | Android's plugins manager 
+[`proguard-rules.pro`](./android/app/proguard-rules.pro)            | Android's build rules
+[`analysis_options.yaml`](./android/app/analysis_options.yaml)      | Flutter's analysis strictness/rules
+[`AndroidManifest.xml`](./android/app/src/main/AndroidManifest.xml) | Metadata for this Android app

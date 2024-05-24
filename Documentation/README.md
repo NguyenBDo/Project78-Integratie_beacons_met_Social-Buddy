@@ -1,7 +1,6 @@
 ### MAP INFORMATIE
-Deze map is gebruikt voor het bijhouden van de documentatie tijdens het project. Hier bevat geen code bestanden, die staan in <b>[Source_Code](../Source_Code/)</b> bestand.
-
-
+Deze map is gebruikt voor het bijhouden van de documentatie tijdens het project. 
+Hier bevat geen code bestanden, die staan in <b>[Source_Code](../Source_Code/)</b> map.
 
 ### DOCUMENTATIE OVERZICHT
 ---
@@ -9,7 +8,8 @@ Het overzicht van bestanden binnen deze documentatie map is hier te vinden.
 Het is <b>alfabetisch</b> geordend.
 
 `./` is de huidige map, dus het is <b>`Documentation`</b>. <br>
-`../` is de vorige map t.o.v. de huidige map, in dit geval het is <b> `ProjectProject78-Integratie_beacons_met_Social-Buddy` </b>.
+`../` is de vorige map t.o.v. de huidige map, in dit geval het is 
+<b> `ProjectProject78-Integratie_beacons_met_Social-Buddy` </b>.
 
 #### Analyse
 Analyse is een document waar een bepaald onderwerp wordt geanalyseerd en genoteerd.
@@ -30,15 +30,15 @@ Diagrammen zijn het overzicht van het (hele) systeem met het minst woorden.
 #### Documentatie
 Het project, het process, de resultaat en meer worden hier gedocumenteerd.
 
-| Bestanden   	    	| Type(s) 		| Path				                                                                                           |
-| :-------------------- | :------------	| :----------------------------------------------------------------------------------------------------------- |
+| Bestanden   	    	| Type(s) 		| Path				                                                                                 |
+| :-------------------- | :------------	| :------------------------------------------------------------------------------------------------- |
 | Projectdocumentatie 	| .docx/.pdf    | [Ga naar](./Documentation/Project_documentation.docx) ./Documentation/`Project_documentation.docx` |
 
 #### Eisen
 De eisen die gesteld zijn door de opdrachtgever. Die zijn gesplit in functionele en niet functionelen eisen.
 
-| Bestanden   	    	| Type(s) 		| Path				                                                                                           |
-| :-------------------- | :------------	| :----------------------------------------------------------------------------------------------------------- |
+| Bestanden   	    	| Type(s) 		| Path				                               |
+| :-------------------- | :------------	| :----------------------------------------------- |
 | Eisen      			| .docx/.pdf    | [Ga naar](./Requirements) ./Requirements/<Eisen> |
 
 #### Handleidingen

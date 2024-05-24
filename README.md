@@ -1,5 +1,7 @@
 # Integrating beacons with Social-Buddy
 
+<img src= "./README_media/Social_Buddy-logo.png" width="500" alt= "social-buddy-avatar-logo"> 
+
 The whole documentation are entirely written in English, except some may be written in both Dutch and English when the target readers are considered. <br>
 > Voor netherlands, bezoek `README_nl.md`.
 
@@ -37,7 +39,7 @@ Team members: <br>
 Github repository: https://github.com/NguyenBDo/Project78-Integratie_beacons_met_Social-Buddy
 
 <img src="./README_media/Video_img.jpg" alt="video-vector-graphics" width="20"/> 
-Demovideo: <b> LINK </b> and it is in the `Documentation` directory.
+Demo-video: <b> LINK </b> and it is in the `Documentation` directory.
 
 ### PROJECT VERSION
 ---
@@ -48,6 +50,6 @@ Demovideo: <b> LINK </b> and it is in the `Documentation` directory.
 
 
 
-<center>
-    <img src= "./README_media/Social_Buddy-logo.png" width= "1000" alt= "social-buddy-avatar-logo"> 
-</center>
+
+<img src= "./README_media/Social_Buddy-logo.png" width= "1000" alt= "social-buddy-avatar-logo"> 
+
