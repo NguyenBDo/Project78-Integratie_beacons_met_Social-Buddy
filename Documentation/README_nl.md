@@ -7,6 +7,8 @@ Hier bevat geen code bestanden, die staan in <b>[Source_Code](../Source_Code/)</
 
 ### DOCUMENTATIE OVERZICHT
 ---
+---
+
 Het overzicht van bestanden binnen deze documentatie map is hier te vinden. 
 Het is <b>alfabetisch</b> geordend.
 
@@ -14,6 +16,7 @@ Het is <b>alfabetisch</b> geordend.
 `../` is de vorige map t.o.v. de huidige map, in dit geval het is 
 [<b> `ProjectProject78-Integratie_beacons_met_Social-Buddy` </b>](../).
 
+---
 #### Analyse
 Analyse is een document waar een bepaald onderwerp wordt geanalyseerd en genoteerd.
 
@@ -25,6 +28,7 @@ Bestanden                                                   | Path
 
 `[!]` .xlsx bestand(en) zijn niet te openen op Github
 
+---
 #### Diagrammen
 Diagrammen zijn het overzicht van het (hele) systeem met het minst woorden.
 
@@ -33,19 +37,24 @@ Bestanden   	    	                                                              
 [BLE conenctie AO](./Diagrams/BLE_Tag_to_System/BLE_connection_Architecture_Design.drawio.pdf)  	    | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Architecture_Design.drawio.pdf`
 [BLE conenctie AO 2](./Diagrams/BLE_Tag_to_System/BLE_connection_Architecture_Design_2.drawio.pdf)      | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Architecture_Design_2.drawio.pdf`
 [BLE connectie Flowchart](./Diagrams/BLE_Tag_to_System/BLE_connection_Flowchart.drawio.pdf)             | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Flowchart.drawio.pdf`
+[Flic knop AO](./Diagrams/Flic_Button_to_System/PLACEHOLDER)                                            | ./Diagrams/Flic_Button_to_System/`PLACEHOLDER`
+[Flic knop Flowchart](./Diagrams/Flic_Button_to_System/PLACEHOLDER)                                     | ./Diagrams/Flic_Button_to_System/`PLACEHOLDER`
 [Softwarediagram](./Diagrams/Software_diagrams)  		                                                | ./Diagrams/Software_diagrams/\<Softwarediagram>
 
 Afkortingen | Betekenis
 :-----      | :-----
 AO          | Architectuurontwerp
 
+---
 #### Documentatie
 Het project, het process, de resultaat en meer worden hier gedocumenteerd.
 
-Bestanden                                                                               | Path				                                                                                 
-:-----                                                                                  | :----- 
-[Project documentatie](./Documentation/ProjectDocumentation_SocialBuddy_p78_2324.pdf)   | ./Documentation/`ProjectDocumentation_SocialBuddy_p78_2324.pdf` 
+Bestanden                                                                                   | Path				                                                                                 
+:-----                                                                                      | :----- 
+[Projectdocumentatie](./Documentation/ProjectDocumentation_SocialBuddy_p78_2324.pdf)        | ./Documentation/`ProjectDocumentation_SocialBuddy_p78_2324.pdf`
+[Overdrachtdocumentation](./Documentation/TransferDocumentation_SocialBuddy_p78_2324.pdf)   | ./Documentation/`TransferDocumentation_SocialBuddy_p78_2324.pdf`
 
+---
 #### Eisen
 De eisen die gesteld zijn door de opdrachtgever. 
 Die zijn gesplit in functionele en niet functionelen eisen.
@@ -54,6 +63,7 @@ Bestanden                       | Path
 :-----                          | :-----
 [Eisendocument](./Requirements) | ./Requirements/<Eisen>
 
+---
 #### Handleidingen
 Hier vinden de handleiding plaats.
 
@@ -62,6 +72,7 @@ Bestanden                                                       | Path
 [Ouderen Handleiding](./Guides/User_guide_user.pdf)             | ./Guides/`User_guide_user.pdf`
 [Mantelzorger Handleiding](./Guides/User_guide_caretaker.pdf)   | ./Guides/`User_guide_caretaker.pdf`
 
+---
 #### Media
 Foto's, video's en flyer(s) vallen onder `Media`. 
 Die kunnen worden gebruikt in bestanden of als extra informatie. 
@@ -75,6 +86,7 @@ Bestanden                                                                   | Pa
 
 `*Demovideo`: niet beschikbaar op GitHub, gebruik liever de link in de [`README.md`](../README.md) binnen de root map.
 
+---
 #### Onderzoeksrapporten
 Onderzoeken die uitgevoerd en gedocumenteerd zijn, worden hier geplaats. 
 Die bechrijven wat werd onderzocht; waarom was die onderzocht; het proces; 
@@ -87,14 +99,22 @@ Bestanden                                                                       
 [Rapport 3](./Research_reports/Template.docx)                                       | ./Research_reports/`Template.docx`
 [Rapport 4](./Research_reports/Template.docx)                                       | ./Research_reports/`Template.docx`
 
+---
 #### Scrumdocumentatie
 `tba`
 
-Bestanden                                                   | Path
-:-----                                                      | :-----
-[Product Backlog](./Scrum/Product_backlog)                  | ./Scrum/Product_backlog/\<Product Backlog>
-[Sprintpresentaties](./Scrum/Sprint_review/Powerpoints/)    | ./Scrum/Sprint_review/Powerpoints/\<Presentaties>
+Bestanden                                                                        | Path
+:-----                                                                           | :-----
+[Product Backlog](./Scrum/Product_backlog)                                       | ./Scrum/Product_backlog/\<Product Backlog>
+[Sprint presentatie 0](./Scrum/Sprint_review/Powerpoints/Sprint_0.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_0.pdf`
+[Sprint presentatie 1](./Scrum/Sprint_review/Powerpoints/Sprint_1.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_1.pdf`
+[Sprint presentatie 2](./Scrum/Sprint_review/Powerpoints/Sprint_2.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_2.pdf`
+[Sprint presentatie 3](./Scrum/Sprint_review/Powerpoints/Sprint_3.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_3.pdf`
+[Sprint presentatie 4](./Scrum/Sprint_review/Powerpoints/Sprint_4.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_4.pdf`
+[Sprint presentatie 5](./Scrum/Sprint_review/Powerpoints/Sprint_5.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_5.pdf`
+[Sprint presentatie 50%](./Scrum/Sprint_review/Powerpoints/Sprint_3_50pc.pdf)    | ./Scrum/Sprint_review/Powerpoints/`Sprint_3_50pc.pdf`
 
+---
 #### Testplan/-rapport
 De testrapporten en testplannen worden hier gedocumenteerd.
 
@@ -103,6 +123,7 @@ Bestanden                                   | Path
 [Testplan(nen)](./Tests/Test_plans/)        | ./Tests/Test_plans/\<Testplannen>
 [Testrapport(en)](./Tests/Test_reports/)    | ./Tests/Test_reports/\<Testrapporten>
 
+---
 #### Overig
 
 Bestanden                   | Path

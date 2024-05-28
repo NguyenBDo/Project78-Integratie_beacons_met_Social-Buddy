@@ -23,11 +23,11 @@ root directory ->
 Analysis document is where you can see how a subject (related to
 this project) is analyzed and documented.
 
-Files                                                       | Path				          
-:-----                                                      | :-----	
-✅[Robuustheidsanalyse](./Analysis/Robust_analysis.pdf)       | ./Analysis/Robust_analysis/`Robustness_analysis.pdf` 
-✅[Risicolog](./Analysis/Risks_analysis)                      | ./Analysis/Risks_analysis/`Social_Buddy_Risks_log.xlsx` 
-❌[Stakeholdersanalyse](./Analysis/Stakeholders_analysis.pdf) | ./Analysis/Stakeholders_analysis/`Stakeholders_analysis.pdf` 
+Files                                                    | Path				          
+:-----                                                   | :-----	
+✅[Robustness](./Analysis/Robust_analysis.pdf)          | ./Analysis/Robust_analysis/`Robustness_analysis.pdf` 
+✅[Risks](./Analysis/Risks_analysis)                    | ./Analysis/Risks_analysis/`Social_Buddy_Risks_log.xlsx` 
+❗[Stakeholders](./Analysis/Stakeholders_analysis.pdf)  | ./Analysis/Stakeholders_analysis/`Stakeholders_analysis.pdf` 
 
 `[!]` .xlsx file(s) are not openable on Github.
 
@@ -38,10 +38,12 @@ written with arrows, blocks and few words.
 
 Files      	    	                                                                                    | Path
 :-----                                                                                                  | :-----
-✅[BLE conenction AD](./Diagrams/BLE_Tag_to_System/BLE_connection_Architecture_Design.drawio.pdf)  	    | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Architecture_Design.drawio.pdf`
-✅[BLE conenction AD 2](./Diagrams/BLE_Tag_to_System/BLE_connection_Architecture_Design_2.drawio.pdf)     | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Architecture_Design_2.drawio.pdf`
-✅[BLE connection Flowchart](./Diagrams/BLE_Tag_to_System/BLE_connection_Flowchart.drawio.pdf)            | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Flowchart.drawio.pdf`
-❌[Software diagram](./Diagrams/Software_diagrams)  		                                                | ./Diagrams/Software_diagrams/\<Softwarediagram>
+✅[BLE conenction AD](./Diagrams/BLE_Tag_to_System/BLE_connection_Architecture_Design.drawio.pdf)  	   | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Architecture_Design.drawio.pdf`
+✅[BLE conenction AD 2](./Diagrams/BLE_Tag_to_System/BLE_connection_Architecture_Design_2.drawio.pdf)   | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Architecture_Design_2.drawio.pdf`
+✅[BLE connection Flowchart](./Diagrams/BLE_Tag_to_System/BLE_connection_Flowchart.drawio.pdf)          | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Flowchart.drawio.pdf`
+❌[Flic button AD](./Diagrams/Flic_Button_to_System/PLACEHOLDER)                                        | ./Diagrams/Flic_Button_to_System/`PLACEHOLDER`
+❌[Flic button Flowchart](./Diagrams/Flic_Button_to_System/PLACEHOLDER)                                 | ./Diagrams/Flic_Button_to_System/`PLACEHOLDER`
+❌[Software diagram](./Diagrams/Software_diagrams)  		                                               | ./Diagrams/Software_diagrams/\<Software diagram>
 
 Abbreviation    | Meaning
 :-----          | :-----
@@ -53,9 +55,10 @@ This document contains all of the information of this project,
 the choices that we made, the reasoning for those choices
  and our conclusions.
 
-Files                                                                                   | Path				                                                                                 
-:-----                                                                                  | :----- 
-❌[Project Documentation](./Documentation/ProjectDocumentation_SocialBuddy_p78_2324.pdf)  | ./Documentation/`ProjectDocumentation_SocialBuddy_p78_2324.pdf` 
+Files                                                                                       | Path				                                                                                 
+:-----                                                                                      | :----- 
+❗[Project Documentation](./Documentation/ProjectDocumentation_SocialBuddy_p78_2324.pdf)    | ./Documentation/`ProjectDocumentation_SocialBuddy_p78_2324.pdf`
+❌[Transfer Documentation](./Documentation/TransferDocumentation_SocialBuddy_p78_2324.pdf)  | ./Documentation/`TransferDocumentation_SocialBuddy_p78_2324.pdf`
 
 ---
 #### Guides
@@ -64,8 +67,8 @@ such as the elderly and the caretaker.
 
 Files                                                   | Path
 :------                                                 | :-----
-❌[Elderly Guide](./Guides/User_guide_user.pdf)           | ./Guides/`User_guide_user.pdf`
-❌[Caretaker Guide](./Guides/User_guide_caretaker.pdf)    | ./Guides/`User_guide_caretaker.pdf`
+❌[Elderly Guide](./Guides/User_guide_user.pdf)         | ./Guides/`User_guide_user.pdf`
+❌[Caretaker Guide](./Guides/User_guide_caretaker.pdf)  | ./Guides/`User_guide_caretaker.pdf`
 
 
 ---
@@ -76,9 +79,9 @@ These media may have better quality than those in any of the documentation.
 
 Files                                                                           | Path
 :-----                                                                          | :-----
-❌[Demo Video*](./Media/Video/Demovideo_SoicalBuddy_p78_2324.mp3)                 | ./Media/Video/`Demovideo_SoicalBuddy_p78_2324.mp3`
-✅[Photos](./Media/Photo/)                                                        | ./Media/Photo/\<Foto's> 
-❌[Promotional Flyer](./Media/Flyer/PromotionalFlyer_SocialBuddy_p78_2324.pdf)    | ./Media/Flyer/`PromotionalFlyer_SocialBuddy_p78_2324.pdf`
+❌[Demo Video*](./Media/Video/Demovideo_SoicalBuddy_p78_2324.mp3)               | ./Media/Video/`Demovideo_SoicalBuddy_p78_2324.mp3`
+✅[Photos](./Media/Photo/)                                                      | ./Media/Photo/\<Photos> 
+✅[Promotional Flyer](./Media/Flyer/PromotionalFlyer_SocialBuddy_p78_2324.pdf)  | ./Media/Flyer/`PromotionalFlyer_SocialBuddy_p78_2324.pdf`
 
 `*Demo Video`: not available on Github, visit the link in [`README_nl.md`](../README_nl.md) within root directory.
 
@@ -87,8 +90,8 @@ Files                                                                           
 
 Files                           | Path
 :-----                          | :-----
-✅[README](./)                    | ./
-❌[Source code](../Source_Code)   | ../Source_Code/
+✅[README](./)                  | ./
+✅[Source code](../Source_Code) | ../Source_Code/
 
 ---
 #### Requirements
@@ -98,8 +101,7 @@ The 2 types of requirements are: Functional and Non-functional (Quality) require
 
 Files                                           | Path
 :-----                                          | :-----
-❌[Requirements documentation](./Requirements)    | ./Requirements/<Eisen>
-
+❗[Requirements documentation](./Requirements)  | ./Requirements/<Eisen>
 
 ---
 #### Research reports
@@ -109,29 +111,36 @@ Everything research related is documenten in these reports.
 
 Files                                                                               | Path
 :-----                                                                              | :-----
-❌[RSSI afstandbepaling](./Research_reports/RSSI_distance_calculation_research.pdf)   | ./Research_reports/`RSSI_distance_calculation_research.pdf`
-❌[Rapport 2](./Research_reports/Template.docx)                                       | ./Research_reports/`Template.docx`
-❌[Rapport 3](./Research_reports/Template.docx)                                       | ./Research_reports/`Template.docx`
-❌[Rapport 4](./Research_reports/Template.docx)                                       | ./Research_reports/`Template.docx`
+❗[RSSI afstandbepaling](./Research_reports/RSSI_distance_calculation_research.pdf) | ./Research_reports/`RSSI_distance_calculation_research.pdf`
+❌[Rapport 2](./Research_reports/Template.docx)                                     | ./Research_reports/`Template.docx`
+❌[Rapport 3](./Research_reports/Template.docx)                                     | ./Research_reports/`Template.docx`
+❌[Rapport 4](./Research_reports/Template.docx)                                     | ./Research_reports/`Template.docx`
 
 ---
 #### Scrum documentation
 `tba`
 
-Files                                                       | Path
-:-----                                                      | :-----
-❌[Product Backlog](./Scrum/Product_backlog)                  | ./Scrum/Product_backlog/\<Product Backlog>
-❌[Sprint presentation](./Scrum/Sprint_review/Powerpoints/)    | ./Scrum/Sprint_review/Powerpoints/\<Presentaties>
+Files                                                                               | Path
+:-----                                                                              | :-----
+❗[Product Backlog](./Scrum/Product_backlog)                                        | ./Scrum/Product_backlog/\<Product Backlog>
+✅[Sprint presentation 0](./Scrum/Sprint_review/Powerpoints/Sprint_0.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_0.pdf`
+✅[Sprint presentation 1](./Scrum/Sprint_review/Powerpoints/Sprint_1.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_1.pdf`
+✅[Sprint presentation 2](./Scrum/Sprint_review/Powerpoints/Sprint_2.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_2.pdf`
+✅[Sprint presentation 3](./Scrum/Sprint_review/Powerpoints/Sprint_3.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_3.pdf`
+✅[Sprint presentation 4](./Scrum/Sprint_review/Powerpoints/Sprint_4.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_4.pdf`
+✅[Sprint presentation 5](./Scrum/Sprint_review/Powerpoints/Sprint_5.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_5.pdf`
+✅[Sprint presentation 50%](./Scrum/Sprint_review/Powerpoints/Sprint_3_50pc.pdf)    | ./Scrum/Sprint_review/Powerpoints/`Sprint_3_50pc.pdf`
 
 ---
 #### Testing plan/report
 To know how or if something works, tests are conducted.
 The plans before and the reports after the tests can be found here.
 
-Files                                       | Path
-:-----                                      | :-----
-❌[Test plan(s)](./Tests/Test_plans/)         | ./Tests/Test_plans/\<Testplannen>
-❌[Test report(s)](./Tests/Test_reports/)     | ./Tests/Test_reports/\<Testrapporten>
+Files                                                                                       | Path
+:-----                                                                                      | :-----
+❌[Test plan(s)](./Tests/Test_plans/)                                                       | ./Tests/Test_plans/\<Test plans>
+❌[Test report(s)](./Tests/Test_reports/)                                                   | ./Tests/Test_reports/\<Test reports>
+✅[`Unit test distance determination`](./Tests/Testplan_en_rapport-afstandsbepaling.pdf)    | ./Tests/`Testplan_en_rapport-afstandsbepaling.pdf`
 
 
 
