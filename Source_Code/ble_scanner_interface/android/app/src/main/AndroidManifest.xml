@@ -8,7 +8,7 @@
     <uses-feature android:name="android.hardware.bluetooth_le" android:required="true" />  
 
     <application
-        android:label="ble2"
+        android:label="ble_scanner_interface"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

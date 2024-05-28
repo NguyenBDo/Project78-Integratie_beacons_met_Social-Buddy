@@ -1,92 +1,137 @@
-### MAP INFORMATIE
-Deze map is gebruikt voor het bijhouden van de documentatie tijdens het project. 
-Hier bevat geen code bestanden, die staan in <b>[Source_Code](../Source_Code/)</b> map.
+# Directory information
+`FYI` a directory is a folder.
 
-### DOCUMENTATIE OVERZICHT
+Voor netherlands, bezoek [`README_nl.md`](./README_nl.md).
+
+This map is used to keep the documentation of this project together.
+There are no code files in this directory,
+please visit the [`Source_Code`](../Source_Code/) directory for the codes.
+
+### DOCUMENTATION OVERVIEW
 ---
-Het overzicht van bestanden binnen deze documentatie map is hier te vinden. 
-Het is <b>alfabetisch</b> geordend.
+---
+An overview of how this directory is structured.
+The type of the file is alphabetically ordered.
 
-`./` is de huidige map, dus het is <b>`Documentation`</b>. <br>
-`../` is de vorige map t.o.v. de huidige map, in dit geval het is 
-<b> `ProjectProject78-Integratie_beacons_met_Social-Buddy` </b>.
+`./` is the current directory -> <b>`Documentation`</b>. <br>
+`../` is the previous directory, which is also this project's
+root directory ->
+[<b> `ProjectProject78-Integratie_beacons_met_Social-Buddy` </b>](../).
 
-#### Analyse
-Analyse is een document waar een bepaald onderwerp wordt geanalyseerd en genoteerd.
-| Bestanden   	    	| Type(s) 		| Path				                                                                                           |
-| :-------------------- | :------------	| :----------------------------------------------------------------------------------------------------------- |
-| Robuustheidsanalyse   | .docx         | [Ga naar](./Analysis/Robust_analysis) ./Analysis/Robust_analysis/`Robustness_analysis.docx` |
-| Risicolog 			| .xlsx 	 	| [Ga naar](./Analysis/Risks_analysis) ./Analysis/Risks_analysis/`Social_Buddy_Risks_log.xlsx` |
-| Stakeholdersanalyse   | .docx/.pdf    | [Ga naar](./Analysis/Stakeholders_analysis) ./Analysis/Stakeholders_analysis/`Stakeholders_analysis.docx` |
+---
+#### Analysis
+Analysis document is where you can see how a subject (related to
+this project) is analyzed and documented.
 
-#### Diagrammen
-Diagrammen zijn het overzicht van het (hele) systeem met het minst woorden.
+Files                                                       | Path				          
+:-----                                                      | :-----	
+✅[Robuustheidsanalyse](./Analysis/Robust_analysis.pdf)       | ./Analysis/Robust_analysis/`Robustness_analysis.pdf` 
+✅[Risicolog](./Analysis/Risks_analysis)                      | ./Analysis/Risks_analysis/`Social_Buddy_Risks_log.xlsx` 
+❌[Stakeholdersanalyse](./Analysis/Stakeholders_analysis.pdf) | ./Analysis/Stakeholders_analysis/`Stakeholders_analysis.pdf` 
 
-| Bestanden   	    	| Type(s) 		| Path				                                                                                           |
-| :-------------------- | :------------	| :----------------------------------------------------------------------------------------------------------- |
-| Architectuurontwerp 	| .pdf 		 	| [Ga naar](./Diagrams/Architecture_designs) ./Diagrams/Architecture_designs/\<Architectuurontwerp(en)> |
-| Softwarediagram 		| .pdf 		 	| [Ga naar](./Diagrams/Software_diagrams) ./Diagrams/Software_diagrams/\<Softwarediagram> |
+`[!]` .xlsx file(s) are not openable on Github.
 
-#### Documentatie
-Het project, het process, de resultaat en meer worden hier gedocumenteerd.
+---
+#### Diagrams
+Diagrams are an overview of a (whole) system,
+written with arrows, blocks and few words.
 
-| Bestanden   	    	| Type(s) 		| Path				                                                                                 |
-| :-------------------- | :------------	| :------------------------------------------------------------------------------------------------- |
-| Projectdocumentatie 	| .docx/.pdf    | [Ga naar](./Documentation/Project_documentation.docx) ./Documentation/`Project_documentation.docx` |
+Files      	    	                                                                                    | Path
+:-----                                                                                                  | :-----
+✅[BLE conenction AD](./Diagrams/BLE_Tag_to_System/BLE_connection_Architecture_Design.drawio.pdf)  	    | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Architecture_Design.drawio.pdf`
+✅[BLE conenction AD 2](./Diagrams/BLE_Tag_to_System/BLE_connection_Architecture_Design_2.drawio.pdf)     | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Architecture_Design_2.drawio.pdf`
+✅[BLE connection Flowchart](./Diagrams/BLE_Tag_to_System/BLE_connection_Flowchart.drawio.pdf)            | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Flowchart.drawio.pdf`
+❌[Software diagram](./Diagrams/Software_diagrams)  		                                                | ./Diagrams/Software_diagrams/\<Softwarediagram>
 
-#### Eisen
-De eisen die gesteld zijn door de opdrachtgever. Die zijn gesplit in functionele en niet functionelen eisen.
+Abbreviation    | Meaning
+:-----          | :-----
+AD              | Architecture Design
 
-| Bestanden   	    	| Type(s) 		| Path				                               |
-| :-------------------- | :------------	| :----------------------------------------------- |
-| Eisen      			| .docx/.pdf    | [Ga naar](./Requirements) ./Requirements/<Eisen> |
+---
+#### Documentation
+This document contains all of the information of this project,
+the choices that we made, the reasoning for those choices
+ and our conclusions.
 
-#### Handleidingen
-Hier vinden de handleiding plaaats.
+Files                                                                                   | Path				                                                                                 
+:-----                                                                                  | :----- 
+❌[Project Documentation](./Documentation/ProjectDocumentation_SocialBuddy_p78_2324.pdf)  | ./Documentation/`ProjectDocumentation_SocialBuddy_p78_2324.pdf` 
 
-| Bestanden   	    	| Type(s) 		| Path				                                |
-| :-------------------- | :------------	| :------------------------------------------------ |
-| Handleidingen         | .docx/.pdf    | [Ga naar](./Guides/) ./Guides/\<Handleidingen>    |
+---
+#### Guides
+The guides are stored here. They are meant for the users,
+such as the elderly and the caretaker.
 
+Files                                                   | Path
+:------                                                 | :-----
+❌[Elderly Guide](./Guides/User_guide_user.pdf)           | ./Guides/`User_guide_user.pdf`
+❌[Caretaker Guide](./Guides/User_guide_caretaker.pdf)    | ./Guides/`User_guide_caretaker.pdf`
+
+
+---
 #### Media
-Foto's, video's en flyer(s) vallen onder `Media`. Die kunnen worden gebruikt in bestanden of als extra informatie. De originele foto's zijn hier beter
-zien dan in het bestand zelf.
+Photos, videos en flyer(s) are categorized as `Media`. 
+Those can be used in any documentation in the `Documentation` directory.
+These media may have better quality than those in any of the documentation.
 
-| Bestanden   	    	| Type(s) 		| Path                                                          |
-| :-------------------- | :------------	| :------------------------------------------------------------ |
-| Demovideo*            | .mp4          | [Ga naar](./Media/Video) ./Media/Video/\<Demovideo>           |
-| Foto's 				| .png/.jpeg	| [Ga naar](./Media/Photo) ./Media/Photo/<Foto's>               |
-| Promotie Flyer 		| .pdf 		 	| [Ga naar](./Media/Flyer) ./Media/Flyer/`Promotional_flyer.pdf |
+Files                                                                           | Path
+:-----                                                                          | :-----
+❌[Demo Video*](./Media/Video/Demovideo_SoicalBuddy_p78_2324.mp3)                 | ./Media/Video/`Demovideo_SoicalBuddy_p78_2324.mp3`
+✅[Photos](./Media/Photo/)                                                        | ./Media/Photo/\<Foto's> 
+❌[Promotional Flyer](./Media/Flyer/PromotionalFlyer_SocialBuddy_p78_2324.pdf)    | ./Media/Flyer/`PromotionalFlyer_SocialBuddy_p78_2324.pdf`
 
-*Demovideo: niet beschikbaar op GitHub, gebruik liever de link die bovenaan staat.
+`*Demo Video`: not available on Github, visit the link in [`README_nl.md`](../README_nl.md) within root directory.
 
-#### Onderzoeksrapporten
-Onderzoeken die uitgevoerd en gedocumenteerd zijn, worden hier geplaats. Die bechrijven wat werd onderzocht; waarom was die onderzocht; het proces; en
-de conclusie die wordt utigekomen.
+---
+#### Other files
 
-| Bestanden   	    	| Type(s) 		| Path                                                                      |
-| :-------------------- | :------------	| :------------------------------------------------------------------------ |
-| Onderzoeksrapporten   | .docx/.pdf    | [Ga naar](./Research_reports/) ./Research_reports/\<Onderzoeksrapporten>  |
+Files                           | Path
+:-----                          | :-----
+✅[README](./)                    | ./
+❌[Source code](../Source_Code)   | ../Source_Code/
 
-#### Scrumdocumentatie
+---
+#### Requirements
+The requirements that are made by the product owner, 
+and those that we made based on his and our view of this project.
+The 2 types of requirements are: Functional and Non-functional (Quality) requirements.
+
+Files                                           | Path
+:-----                                          | :-----
+❌[Requirements documentation](./Requirements)    | ./Requirements/<Eisen>
+
+
+---
+#### Research reports
+To know how something works, research(es) is/are conducted to
+have a better understanding of what we may not have known.
+Everything research related is documenten in these reports.
+
+Files                                                                               | Path
+:-----                                                                              | :-----
+❌[RSSI afstandbepaling](./Research_reports/RSSI_distance_calculation_research.pdf)   | ./Research_reports/`RSSI_distance_calculation_research.pdf`
+❌[Rapport 2](./Research_reports/Template.docx)                                       | ./Research_reports/`Template.docx`
+❌[Rapport 3](./Research_reports/Template.docx)                                       | ./Research_reports/`Template.docx`
+❌[Rapport 4](./Research_reports/Template.docx)                                       | ./Research_reports/`Template.docx`
+
+---
+#### Scrum documentation
 `tba`
 
-| Bestanden   	    	| Type(s) 		| Path                                                                                              |
-| :-------------------- | :------------	| :------------------------------------------------------------------------------------------------ |
-| Product Backlog 		| .xlsx 	 	| [Ga naar](./Scrum/Product_backlog) ./Scrum/Product_backlog/\<Product Backlog>                     |
-| Sprintpresentatie     | .pptx         | [Ga naar](./Scrum/Sprint_review/Powerpoints/) ./Scrum/Sprint_review/Powerpoints/\<Presentaties>   |
+Files                                                       | Path
+:-----                                                      | :-----
+❌[Product Backlog](./Scrum/Product_backlog)                  | ./Scrum/Product_backlog/\<Product Backlog>
+❌[Sprint presentation](./Scrum/Sprint_review/Powerpoints/)    | ./Scrum/Sprint_review/Powerpoints/\<Presentaties>
 
-#### Testplan/-rapport
-De testrapporten en testplannen worden hier gedocumenteerd.
+---
+#### Testing plan/report
+To know how or if something works, tests are conducted.
+The plans before and the reports after the tests can be found here.
 
-| Bestanden   	    	| Type(s) 		| Path                                                                      |
-| :-------------------- | :------------	| :------------------------------------------------------------------------ |
-| Testplan(nen)         | .docx/.pdf    | [Ga naar](./Tests/Test_plans/) ./Tests/Test_plans/\<Testplannen>          |
-| Testrapport(en)       | .docx/.pdf    | [Ga naar](./Tests/Test_reports/) ./Tests/Test_reports/\<Testrapporten>    |
+Files                                       | Path
+:-----                                      | :-----
+❌[Test plan(s)](./Tests/Test_plans/)         | ./Tests/Test_plans/\<Testplannen>
+❌[Test report(s)](./Tests/Test_reports/)     | ./Tests/Test_reports/\<Testrapporten>
 
-#### Overig
-| Bestanden   	    	| Type(s) 		| Path                                          |
-| :-------------------- | :------------	| :-------------------------------------------- |
-| README 				| .md 		 	| [Ga naar](./) ./                              |
-| Source code    		| map			| [Ga naar](../Source_Code) ../Source_Code/     |
+
 

@@ -42,7 +42,8 @@ class _BleDeviceListState extends State<BleDeviceList> {
   @override
   Widget build(BuildContext context) {
     List<ScanResult> filteredScanResults = _scanResults.where((result) {
-      return !showConnectableOnly || result.advertisementData.connectable;
+      // return !showConnectableOnly || result.advertisementData.connectable;
+      return result.device.remoteId.toString() == "D4:91:26:AA:E9:2D"; // <--- TEST MAC address
     }).toList();
 
     List<ScanResult> sortedScanResults;
@@ -123,7 +124,7 @@ class _BleDeviceListState extends State<BleDeviceList> {
             ),
           );
 
-          void goToDeviceInfo() {
+          void goToDeviceInfo() { // <---  GO TO BLE_DEVICE_INFO PAGE
             Navigator.push(
               context,
               MaterialPageRoute(

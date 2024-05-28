@@ -1,4 +1,4 @@
-# BLE2
+# BLE_SCANNER_INTERFACE
 
 This is an application with which you can connect to a BLE device
 using Flutter/Dart. This is meant to be implemented in the
@@ -31,5 +31,5 @@ File/Folder   	                                                    | Description
 [`pubspec.yaml`](./pubspec.yaml)                                    | Flutter project's packets manager 
 [`build.gradle`](./android/app/build.gradle)                        | Android's plugins manager 
 [`proguard-rules.pro`](./android/app/proguard-rules.pro)            | Android's build rules
-[`analysis_options.yaml`](./android/app/analysis_options.yaml)      | Flutter's analysis strictness/rules
+[`analysis_options.yaml`](./analysis_options.yaml)      | Flutter's analysis strictness/rules
 [`AndroidManifest.xml`](./android/app/src/main/AndroidManifest.xml) | Metadata for this Android app

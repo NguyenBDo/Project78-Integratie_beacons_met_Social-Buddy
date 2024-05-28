@@ -23,8 +23,13 @@ In this repository, you can find the source code of the Flic button and the tag;
 <img src="./README_media/PO-vector-graphics.jpg" alt="po-vector-graphics" width="16"/> 
 Product owner: <br>
 
-	-  Jack Jagt
+	- Jack Jagt
 
+<img src="./README_media/PO-vector-graphics.jpg" alt="po-vector-graphics" width="16"/> 
+Supervisors: <br>
+
+	- S.M. Hekkelman
+    - Alexander Slaa
 
 <img src="./README_media/team-vector-graphics.jpg" alt="team-vector-graphics" width="16"/> 
 Team members: <br>
@@ -51,5 +56,6 @@ Demo-video: <b> LINK </b> and it is in the `Documentation` directory.
 
 
 
-<img src= "./README_media/Social_Buddy-logo.png" width= "1000" alt= "social-buddy-avatar-logo"> 
+<!-- <img src= "./README_media/Social_Buddy-logo.png" width= "1000" alt= "social-buddy-avatar-logo">  -->
 
+❌✅
