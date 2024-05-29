@@ -1,7 +1,7 @@
 # Directory information
 `FYI` a directory is a folder.
 
-Voor netherlands, bezoek [`README_nl.md`](./README_nl.md).
+<!-- Voor netherlands, bezoek [`README_nl.md`](./README_nl.md). -->
 
 This map is used to keep the documentation of this project together.
 There are no code files in this directory,
