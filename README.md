@@ -76,5 +76,5 @@ https://github.com/NguyenBDo/Project78-Integratie_beacons_met_Social-Buddy
 <!-- <img src= "./README_media/Social_Buddy-logo.png" width= "1000" alt= "social-buddy-avatar-logo">  -->
 
 
-| <img src= "./README_media/Social_Buddy-logo.png" width="100" alt= "social-buddy-avatar-logo"> <img src= "./README_media/HogeschoolRotterdam_logo.png" width="100" alt= "hogeschool-rotterdam-Logo"> |
+| <img src= "./README_media/Social_Buddy-logo.png" width="100" alt= "social-buddy-avatar-logo"> <img src= "./README_media/HogeschoolRotterdam_Logo.png" width="100" alt= "hogeschool-rotterdam-Logo"> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
