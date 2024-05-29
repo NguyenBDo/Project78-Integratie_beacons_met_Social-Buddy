@@ -29,7 +29,8 @@ Files                                                    | Path
 ✅[Risks](./Analysis/Risks_analysis)                    | ./Analysis/Risks_analysis/`Social_Buddy_Risks_log.xlsx` 
 ❗[Stakeholders](./Analysis/Stakeholders_analysis.pdf)  | ./Analysis/Stakeholders_analysis/`Stakeholders_analysis.pdf` 
 
-`[!]` .xlsx file(s) are not openable on Github.
+[!NOTE] 
+.xlsx file(s) are not openable on Github.
 
 ---
 #### Diagrams

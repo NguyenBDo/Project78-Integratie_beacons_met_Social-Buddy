@@ -38,8 +38,11 @@ Supervisors: <br>
 	- S.M. Hekkelman
     - Alexander Slaa
 
-<img src="./README_media/team-vector-graphics.jpg" alt="team-vector-graphics" width="16"/> 
-Team members: <br>
+
+
+| <img src="./README_media/team-vector-graphics.jpg" alt="team-vector-graphics" width="16"/>  Team members: |
+| :--- |
+
 
     - Ahmet Oral (1023107)
     - Binh Nguyen Do (1057048)
