@@ -6,12 +6,9 @@
 except some may be written in both Dutch and English when the target readers are considered. <br> -->
 <!-- > Voor netherlands, bezoek []`README_nl.md`](./README_nl.md). -->
 
-> [!NOTE]
-> A directory is a folder.
-
 There are elderlies all over the world that feel isolated at home, 
 especially those with disabilities. Jack Jagt wants to help these people, 
-and as a result he has started `Social Buddy'. 
+and as a result he has started 'Social Buddy'. 
 He and his team has made applications that help caregivers with their jobs and the elderly with their lives. 
 Besides developing the software with his team, 
 he has also taken an interest in the skills of the students of
@@ -23,7 +20,7 @@ and a location tracking tag with the current Buddy Bot application.
 
 In this repository, you can find the source code of the Flic button and the tag; 
 and the documentation concerning the whole project. 
-Please look at the correct directory when searching for something.
+Please look at the correct directory(folder) when searching for something.
 
 
 ### PROJECT INFORMATION
