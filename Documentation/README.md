@@ -1,5 +1,6 @@
 # Directory information
-`FYI` a directory is a folder.
+> [!NOTE]
+> A directory is a folder.
 
 <!-- Voor netherlands, bezoek [`README_nl.md`](./README_nl.md). -->
 
@@ -23,11 +24,11 @@ root directory ->
 Analysis document is where you can see how a subject (related to
 this project) is analyzed and documented.
 
-Files                                                    | Path				          
-:-----                                                   | :-----	
+Files                                                   | Path				          
+:------------------------------------------------------ | :------------------------------------------------------------
 ✅[Robustness](./Analysis/Robust_analysis.pdf)          | ./Analysis/Robust_analysis/`Robustness_analysis.pdf` 
 ✅[Risks](./Analysis/Risks_analysis)                    | ./Analysis/Risks_analysis/`Social_Buddy_Risks_log.xlsx` 
-❗[Stakeholders](./Analysis/Stakeholders_analysis.pdf)  | ./Analysis/Stakeholders_analysis/`Stakeholders_analysis.pdf` 
+✅[Stakeholders](./Analysis/Stakeholders_analysis.pdf)  | ./Analysis/Stakeholders_analysis/`Stakeholders_analysis.pdf` 
 
 > [!NOTE] 
 > .xlsx file(s) are not openable on Github.
@@ -36,28 +37,40 @@ Files                                                    | Path
 #### Diagrams
 Diagrams are an overview of a (whole) system,
 written with arrows, blocks and few words.
+> [!NOTE]
+> The abbreviations are explained in the second(2nd) 
+> table of this section.
 
 Files      	    	                                                                                    | Path
-:-----                                                                                                  | :-----
-✅[BLE conenction AD](./Diagrams/BLE_Tag_to_System/BLE_connection_Architecture_Design.drawio.pdf)  	   | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Architecture_Design.drawio.pdf`
-✅[BLE conenction AD 2](./Diagrams/BLE_Tag_to_System/BLE_connection_Architecture_Design_2.drawio.pdf)   | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Architecture_Design_2.drawio.pdf`
-✅[BLE connection Flowchart](./Diagrams/BLE_Tag_to_System/BLE_connection_Flowchart.drawio.pdf)          | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Flowchart.drawio.pdf`
+:------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------
+✅[BLE connection AD](./Diagrams/BLE_Tag_to_System/BLE_connection_Architecture_Design_v2.drawio.pdf)    | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Architecture_Design_v2.drawio.pdf`
+✅[BLE connection Flowchart](./Diagrams/BLE_Tag_to_System/BLE_connection_Flowchart_v2.drawio.pdf)       | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Flowchart_v2.drawio.pdf`
+❌[BLE connection SD](./Diagrams/BLE_Tag_to_System/PLACEHOLDER)                                         | ./Diagrams/BLE_Tag_to_System/`PLACEHOLDER`
 ❌[Flic button AD](./Diagrams/Flic_Button_to_System/PLACEHOLDER)                                        | ./Diagrams/Flic_Button_to_System/`PLACEHOLDER`
 ❌[Flic button Flowchart](./Diagrams/Flic_Button_to_System/PLACEHOLDER)                                 | ./Diagrams/Flic_Button_to_System/`PLACEHOLDER`
-❌[Software diagram](./Diagrams/Software_diagrams)  		                                               | ./Diagrams/Software_diagrams/\<Software diagram>
+❌[Flic button SD](./Diagrams/Flic_Button_to_System/PLACEHOLDER)                                        | ./Diagrams/Flic_Button_to_System/`PLACEHOLDER`
+✅[Whole System AD](./Diagrams/Whole_System/Whole_System_Architecture_Diagram_v2.drawio.pdf)            | ./Diagrams/Whole_System/`Whole_System_Architecture_Diagram_v2.drawio.pdf`
+❌[Whole System Flowchart](./Diagrams/Whole_System/PLACEHOLDER)                                         | ./Diagrams/Whole_System/`PLACEHOLDER`
+
+> [!NOTE]
+> Previous diagrams are to be found in `"previous_versions"`
+> directory in their respective `abstraction directory` if you find them interesting.
+
+<!-- ❌[Software diagram](./Diagrams/Software_diagrams)  		                                               | ./Diagrams/Software_diagrams/\<Software diagram> -->
 
 Abbreviation    | Meaning
-:-----          | :-----
-AD              | Architecture Design
+:-------------- | :--------------------------
+AD              | Architecture Design/Diagram
+SD              | Software Diagram
 
 ---
 #### Documentation
 This document contains all of the information of this project,
-the choices that we made, the reasoning for those choices
- and our conclusions.
+the choices that we made, the reasoning(s) for those choices
+and our conclusions.
 
 Files                                                                                       | Path				                                                                                 
-:-----                                                                                      | :----- 
+:------------------------------------------------------------------------------------------ | :---------------------------------------------------------------
 ❗[Project Documentation](./Documentation/ProjectDocumentation_SocialBuddy_p78_2324.pdf)    | ./Documentation/`ProjectDocumentation_SocialBuddy_p78_2324.pdf`
 ❌[Transfer Documentation](./Documentation/TransferDocumentation_SocialBuddy_p78_2324.pdf)  | ./Documentation/`TransferDocumentation_SocialBuddy_p78_2324.pdf`
 
@@ -67,7 +80,7 @@ The guides are stored here. They are meant for the users,
 such as the elderly and the caretaker.
 
 Files                                                   | Path
-:------                                                 | :-----
+:------------------------------------------------------ | :----------------------------------
 ❌[Elderly Guide](./Guides/User_guide_user.pdf)         | ./Guides/`User_guide_user.pdf`
 ❌[Caretaker Guide](./Guides/User_guide_caretaker.pdf)  | ./Guides/`User_guide_caretaker.pdf`
 
@@ -79,18 +92,19 @@ Those can be used in any documentation in the `Documentation` directory.
 These media may have better quality than those in any of the documentation.
 
 Files                                                                           | Path
-:-----                                                                          | :-----
-❌[Demo Video*](./Media/Video/Demovideo_SoicalBuddy_p78_2324.mp3)               | ./Media/Video/`Demovideo_SoicalBuddy_p78_2324.mp3`
+:------------------------------------------------------------------------------ | :----------------------------------------------------
+❌[Demo Video](./Media/Video/Demovideo_SoicalBuddy_p78_2324.mp3)                | ./Media/Video/`Demovideo_SoicalBuddy_p78_2324.mp3`
 ✅[Photos](./Media/Photo/)                                                      | ./Media/Photo/\<Photos> 
 ✅[Promotional Flyer](./Media/Flyer/PromotionalFlyer_SocialBuddy_p78_2324.pdf)  | ./Media/Flyer/`PromotionalFlyer_SocialBuddy_p78_2324.pdf`
 
-`*Demo Video`: not available on Github, visit the link in [`README_nl.md`](../README_nl.md) within root directory.
+> [!NOTE]
+> The "Demo video" is not available on Github, visit the link in [`README.md`](../README.md) within root directory.
 
 ---
 #### Other files
 
 Files                           | Path
-:-----                          | :-----
+:-------------------------------| :---------------
 ✅[README](./)                  | ./
 ✅[Source code](../Source_Code) | ../Source_Code/
 
@@ -101,8 +115,8 @@ and those that we made based on his and our view of this project.
 The 2 types of requirements are: Functional and Non-functional (Quality) requirements.
 
 Files                                           | Path
-:-----                                          | :-----
-❗[Requirements documentation](./Requirements)  | ./Requirements/<Eisen>
+:---------------------------------------------- | :------------------------------
+❗[Requirements documentation](./Requirements)  | ./Requirements/<Requriements>
 
 ---
 #### Research reports
@@ -110,19 +124,21 @@ To know how something works, research(es) is/are conducted to
 have a better understanding of what we may not have known.
 Everything research related is documenten in these reports.
 
-Files                                                                               | Path
-:-----                                                                              | :-----
-❗[RSSI afstandbepaling](./Research_reports/RSSI_distance_calculation_research.pdf) | ./Research_reports/`RSSI_distance_calculation_research.pdf`
-❌[Rapport 2](./Research_reports/Template.docx)                                     | ./Research_reports/`Template.docx`
-❌[Rapport 3](./Research_reports/Template.docx)                                     | ./Research_reports/`Template.docx`
-❌[Rapport 4](./Research_reports/Template.docx)                                     | ./Research_reports/`Template.docx`
+Files                                                                                       | Path
+:------------------------------------------------------------------------------------------ | :------------------------------------------------------------
+❗[RSSI distance determination](./Research_reports/RSSI_distance_calculation_research.pdf)  | ./Research_reports/`RSSI_distance_calculation_research.pdf`
+❌[Rapport 2](./Research_reports/Template.docx)                                             | ./Research_reports/`Template.docx`
+❌[Rapport 3](./Research_reports/Template.docx)                                             | ./Research_reports/`Template.docx`
+❌[Rapport 4](./Research_reports/Template.docx)                                             | ./Research_reports/`Template.docx`
 
 ---
 #### Scrum documentation
-`tba`
+Here lie the files which are used to keep us up-to-date
+with the project. 
+You can see what have we done and when.
 
 Files                                                                               | Path
-:-----                                                                              | :-----
+:---------------------------------------------------------------------------------- | :-----------------------------------------------------
 ❗[Product Backlog](./Scrum/Product_backlog)                                        | ./Scrum/Product_backlog/\<Product Backlog>
 ✅[Sprint presentation 0](./Scrum/Sprint_review/Powerpoints/Sprint_0.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_0.pdf`
 ✅[Sprint presentation 1](./Scrum/Sprint_review/Powerpoints/Sprint_1.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_1.pdf`
@@ -138,7 +154,7 @@ To know how or if something works, tests are conducted.
 The plans before and the reports after the tests can be found here.
 
 Files                                                                                       | Path
-:-----                                                                                      | :-----
+:------------------------------------------------------------------------------------------ | :-------------------------------------------------
 ❌[Test plan(s)](./Tests/Test_plans/)                                                       | ./Tests/Test_plans/\<Test plans>
 ❌[Test report(s)](./Tests/Test_reports/)                                                   | ./Tests/Test_reports/\<Test reports>
 ✅[`Unit test distance determination`](./Tests/Testplan_en_rapport-afstandsbepaling.pdf)    | ./Tests/`Testplan_en_rapport-afstandsbepaling.pdf`
