@@ -24,9 +24,9 @@ this project) is analyzed and documented.
 
 Files                                                               | Path				          
 :------------------------------------------------------------------ | :------------------------------------------------------------
-❗[Robustness](./Analysis/Robust_analysis.pdf) `{9}``{13}`          | ./Analysis/Robust_analysis/`Robustness_analysis.pdf` 
-✅[Risks](./Analysis/Risks_analysis) `{5}``{13}`                    | ./Analysis/Risks_analysis/`Social_Buddy_Risks_log.xlsx` 
-✅[Stakeholders](./Analysis/Stakeholders_analysis.pdf) `{1}``{13}`  | ./Analysis/Stakeholders_analysis/`Stakeholders_analysis.pdf` 
+❗[Robustness](./Analysis/Robust_analysis.pdf) `{9}{13}`          | ./Analysis/Robust_analysis/`Robustness_analysis.pdf` 
+✅[Risks](./Analysis/Risks_analysis) `{5}{13}`                    | ./Analysis/Risks_analysis/`Social_Buddy_Risks_log.xlsx` 
+✅[Stakeholders](./Analysis/Stakeholders_analysis.pdf) `{1}{13}`  | ./Analysis/Stakeholders_analysis/`Stakeholders_analysis.pdf` 
 
 > [!NOTE] 
 > .xlsx file(s) are not openable on Github.
@@ -41,13 +41,13 @@ written with arrows, blocks and few words.
 
 Files      	    	                                                                                            | Path
 :-------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------
-✅[BLE connection AD](./Diagrams/BLE_Tag_to_System/BLE_connection_Architecture_Design_v2.drawio.pdf) `{7}``{8}` | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Architecture_Design_v2.drawio.pdf`
+✅[BLE connection AD](./Diagrams/BLE_Tag_to_System/BLE_connection_Architecture_Design_v2.drawio.pdf) `{7}{8}` | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Architecture_Design_v2.drawio.pdf`
 ✅[BLE connection Flowchart](./Diagrams/BLE_Tag_to_System/BLE_connection_Flowchart_v2.drawio.pdf)               | ./Diagrams/BLE_Tag_to_System/`BLE_connection_Flowchart_v2.drawio.pdf`
 ❌[BLE connection SD](./Diagrams/BLE_Tag_to_System/PLACEHOLDER)                                                 | ./Diagrams/BLE_Tag_to_System/`PLACEHOLDER`
-❌[Flic button AD](./Diagrams/Flic_Button_to_System/PLACEHOLDER) `{7}``{8}`                                     | ./Diagrams/Flic_Button_to_System/`PLACEHOLDER`
+❌[Flic button AD](./Diagrams/Flic_Button_to_System/PLACEHOLDER) `{7}{8}`                                     | ./Diagrams/Flic_Button_to_System/`PLACEHOLDER`
 ❌[Flic button Flowchart](./Diagrams/Flic_Button_to_System/PLACEHOLDER)                                         | ./Diagrams/Flic_Button_to_System/`PLACEHOLDER`
 ❌[Flic button SD](./Diagrams/Flic_Button_to_System/PLACEHOLDER)                                                | ./Diagrams/Flic_Button_to_System/`PLACEHOLDER`
-✅[Whole System AD](./Diagrams/Whole_System/Whole_System_Architecture_Diagram_v2.drawio.pdf) `{7}``{8}`         | ./Diagrams/Whole_System/`Whole_System_Architecture_Diagram_v2.drawio.pdf`
+✅[Whole System AD](./Diagrams/Whole_System/Whole_System_Architecture_Diagram_v2.drawio.pdf) `{7}{8}`         | ./Diagrams/Whole_System/`Whole_System_Architecture_Diagram_v2.drawio.pdf`
 ❌[Whole System Flowchart](./Diagrams/Whole_System/PLACEHOLDER)                                                 | ./Diagrams/Whole_System/`PLACEHOLDER`
 
 > [!NOTE]
@@ -69,7 +69,7 @@ and our conclusions.
 
 Files                                                                                                   | Path				                                                                                 
 :------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------
-❗[Project Documentation](./Documentation/ProjectDocumentation_SocialBuddy_p78_2324.pdf) `{6}``{13}`    | ./Documentation/`ProjectDocumentation_SocialBuddy_p78_2324.pdf`
+❗[Project Documentation](./Documentation/ProjectDocumentation_SocialBuddy_p78_2324.pdf) `{6}{13}`    | ./Documentation/`ProjectDocumentation_SocialBuddy_p78_2324.pdf`
 ❌[Transfer Documentation](./Documentation/TransferDocumentation_SocialBuddy_p78_2324.pdf)  `{13}`      | ./Documentation/`TransferDocumentation_SocialBuddy_p78_2324.pdf`
 
 ---
@@ -125,7 +125,7 @@ Everything research related is documenten in these reports.
 Files                                                                                               | Path
 :-------------------------------------------------------------------------------------------------- | :------------------------------------------------------------
 ❗[RSSI distance determination](./Research_reports/RSSI_distance_calculation_research.pdf) `{13}`   | ./Research_reports/`RSSI_distance_calculation_research.pdf`
-❌[Khizer Rapport](./Research_reports/Template.docx) `{2}` `{4}`                                    | ./Research_reports/`Template.docx`
+❌[Khizer Rapport](./Research_reports/Template.docx) `{2}{4}`                                    | ./Research_reports/`Template.docx`
 ❌[Ahmet Rapport 3](./Research_reports/Template.docx) `{13}`                                        | ./Research_reports/`Template.docx`
 ❌[Terrence Rapport 4](./Research_reports/Template.docx) `{13}`                                     | ./Research_reports/`Template.docx`
 
@@ -156,7 +156,7 @@ Files                                                                           
 ❌[Test plan(s)](./Tests/Test_plans/)                                                       | ./Tests/Test_plans/\<Test plans>
 ❌[Test report(s)](./Tests/Test_reports/)                                                   | ./Tests/Test_reports/\<Test reports>
 ✅[`Unit test distance determination`](./Tests/Testplan_en_rapport-afstandsbepaling.pdf)    | ./Tests/`Testplan_en_rapport-afstandsbepaling.pdf`
-❌[`User acceptance test`](./Tests/PLACEHOLDER) {10}                                        | ./Tests/`PLACEHOLDER`
+❌[`User acceptance test`](./Tests/PLACEHOLDER) `{10}`                                        | ./Tests/`PLACEHOLDER`
 
 
 
