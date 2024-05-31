@@ -162,6 +162,7 @@ Files                                                                           
 
 ## Tech goals (NL)
 --
+
 {1} [Analyseren] Je kunt op basis van de wensen van de stakeholder(s), 
 het (onderliggende) probleem, danwel de use case definiëren.
 
