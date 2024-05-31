@@ -155,8 +155,8 @@ Files                                                                           
 :------------------------------------------------------------------------------------------ | :-------------------------------------------------
 ❌[Test plan(s)](./Tests/Test_plans/)                                                       | ./Tests/Test_plans/\<Test plans>
 ❌[Test report(s)](./Tests/Test_reports/)                                                   | ./Tests/Test_reports/\<Test reports>
-✅[`Unit test distance determination`](./Tests/Testplan_en_rapport-afstandsbepaling.pdf)    | ./Tests/`Testplan_en_rapport-afstandsbepaling.pdf`
-❌[`User acceptance test`](./Tests/PLACEHOLDER) `{10}`                                        | ./Tests/`PLACEHOLDER`
+✅[Unit test distance determination](./Tests/Testplan_en_rapport-afstandsbepaling.pdf)    | ./Tests/`Testplan_en_rapport-afstandsbepaling.pdf`
+❌[User acceptance test](./Tests/PLACEHOLDER) `{10}`                                        | ./Tests/`PLACEHOLDER`
 
 
 
