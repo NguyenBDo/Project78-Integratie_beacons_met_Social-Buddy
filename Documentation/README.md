@@ -70,7 +70,7 @@ and our conclusions.
 Files                                                                                                   | Path				                                                                                 
 :------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------
 ❗[Project Documentation](./Documentation/ProjectDocumentation_SocialBuddy_p78_2324.pdf) `{6}{13}`    | ./Documentation/`ProjectDocumentation_SocialBuddy_p78_2324.pdf`
-❌[Transfer Documentation](./Documentation/TransferDocumentation_SocialBuddy_p78_2324.pdf)  `{13}`      | ./Documentation/`TransferDocumentation_SocialBuddy_p78_2324.pdf`
+✅[Transfer Documentation](./Documentation/Transfer_documentation)  `{13}`      | ./Documentation/`Transfer_documentation/`
 
 ---
 #### Guides

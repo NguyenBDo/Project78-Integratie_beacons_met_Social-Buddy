@@ -1,0 +1,9 @@
+
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8201:80"
+    volumes:
+      - ./site:/usr/share/nginx/html
+    restart: always
