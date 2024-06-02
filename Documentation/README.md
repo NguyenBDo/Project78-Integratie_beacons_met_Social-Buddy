@@ -122,12 +122,12 @@ To know how something works, research(es) is/are conducted to
 have a better understanding of what we may not have known.
 Everything research related is documenten in these reports.
 
-Files                                                                                               | Path
-:-------------------------------------------------------------------------------------------------- | :------------------------------------------------------------
-❗[RSSI distance determination](./Research_reports/RSSI_distance_calculation_research.pdf) `{13}`   | ./Research_reports/`RSSI_distance_calculation_research.pdf`
-❌[Khizer Rapport](./Research_reports/Template.docx) `{2}{4}`                                    | ./Research_reports/`Template.docx`
-❌[Ahmet Rapport 3](./Research_reports/Template.docx) `{13}`                                        | ./Research_reports/`Template.docx`
-❌[Terrence Rapport 4](./Research_reports/Template.docx) `{13}`                                     | ./Research_reports/`Template.docx`
+Files                                                                                   | Path
+:-------------------------------------------------------------------------------------- | :------------------------------------------------------------
+✅[RSSI distance determination](./RSSI_DistanceDetermination_ResearchReport.pdf) `{13}` | ./Research_reports/`RSSI_DistanceDetermination_ResearchReport.pdf`
+❌[Khizer Rapport](./Research_reports/Template.docx) `{2}{4}`                           | ./Research_reports/`Template.docx`
+❌[Ahmet Rapport 3](./Research_reports/Template.docx) `{13}`                            | ./Research_reports/`Template.docx`
+❌[Terrence Rapport 4](./Research_reports/Template.docx) `{13}`                         | ./Research_reports/`Template.docx`
 
 ---
 #### Scrum documentation `{6}`
