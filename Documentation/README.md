@@ -69,7 +69,7 @@ and our conclusions.
 
 Files                                                                                                   | Path				                                                                                 
 :------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------
-❗[Project Documentation](./Documentation/ProjectDocumentation_SocialBuddy_p78_2324.pdf) `{6}{13}`    | ./Documentation/`ProjectDocumentation_SocialBuddy_p78_2324.pdf`
+✅[Project Documentation](./Documentation/ProjectDocumentation_SocialBuddy_p78_2324.pdf) `{6}{13}`    | ./Documentation/`ProjectDocumentation_SocialBuddy_p78_2324.pdf`
 ✅[Transfer Documentation](./Documentation/Transfer_documentation)  `{13}`      | ./Documentation/`Transfer_documentation/`
 
 ---
@@ -114,7 +114,7 @@ The 2 types of requirements are: Functional and Non-functional (Quality) require
 
 Files                                           | Path
 :---------------------------------------------- | :------------------------------
-❗[Requirements documentation](./Requirements)  | ./Requirements/<Requriements>
+✅[Requirements documentation](./Requirements)  | ./Requirements/<Requriements>
 
 ---
 #### Research reports `{3}`
@@ -137,7 +137,7 @@ You can see what have we done and when.
 
 Files                                                                               | Path
 :---------------------------------------------------------------------------------- | :-----------------------------------------------------
-❗[Product Backlog](./Scrum/Product_backlog)                                        | ./Scrum/Product_backlog/\<Product Backlog>
+✅[Product Backlog](./Scrum/Product_backlog)                                        | ./Scrum/Product_backlog/\<Product Backlog>
 ✅[Sprint presentation 0](./Scrum/Sprint_review/Powerpoints/Sprint_0.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_0.pdf`
 ✅[Sprint presentation 1](./Scrum/Sprint_review/Powerpoints/Sprint_1.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_1.pdf`
 ✅[Sprint presentation 2](./Scrum/Sprint_review/Powerpoints/Sprint_2.pdf)           | ./Scrum/Sprint_review/Powerpoints/`Sprint_2.pdf`
@@ -153,10 +153,10 @@ The plans before and the reports after the tests can be found here.
 
 Files                                                                                       | Path
 :------------------------------------------------------------------------------------------ | :-------------------------------------------------
-❌[Test plan(s)](./Tests/Test_plans/)                                                       | ./Tests/Test_plans/\<Test plans>
-❌[Test report(s)](./Tests/Test_reports/)                                                   | ./Tests/Test_reports/\<Test reports>
+<!-- ❌[Test plan(s)](./Tests/Test_plans/)                                                       | ./Tests/Test_plans/\<Test plans> -->
+<!-- ❌[Test report(s)](./Tests/Test_reports/)                                                   | ./Tests/Test_reports/\<Test reports> -->
 ✅[Unit test distance determination](./Tests/Testplan_en_rapport-afstandsbepaling.pdf)    | ./Tests/`Testplan_en_rapport-afstandsbepaling.pdf`
-❌[User acceptance test](./Tests/PLACEHOLDER) `{10}`                                        | ./Tests/`PLACEHOLDER`
+<!-- ❌[User acceptance test](./Tests/PLACEHOLDER) `{10}`                                        | ./Tests/`PLACEHOLDER` -->
 
 
 
