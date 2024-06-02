@@ -91,7 +91,7 @@ These media may have better quality than those in any of the documentation.
 
 Files                                                                           | Path
 :------------------------------------------------------------------------------ | :----------------------------------------------------
-❌[Demo Video](./Media/Video/Demovideo_SoicalBuddy_p78_2324.mp3) `{12}`         | ./Media/Video/`Demovideo_SoicalBuddy_p78_2324.mp3`
+✅[Demo Video](./Media/Video/Demovideo_SoicalBuddy_p78_2324.mp4) `{12}`         | ./Media/Video/`Demovideo_SoicalBuddy_p78_2324.mp4`
 ✅[Photos](./Media/Photo/)                                                      | ./Media/Photo/\<Photos> 
 ✅[Promotional Flyer](./Media/Flyer/PromotionalFlyer_SocialBuddy_p78_2324.pdf)  | ./Media/Flyer/`PromotionalFlyer_SocialBuddy_p78_2324.pdf`
 
@@ -124,10 +124,10 @@ Everything research related is documenten in these reports.
 
 Files                                                                                   | Path
 :-------------------------------------------------------------------------------------- | :------------------------------------------------------------
-✅[RSSI distance determination](./RSSI_DistanceDetermination_ResearchReport.pdf) `{13}` | ./Research_reports/`RSSI_DistanceDetermination_ResearchReport.pdf`
+✅[RSSI distance determination](./Research_reports/RSSI_DistanceDetermination_ResearchReport.pdf) `{13}` | ./`Research_reports/RSSI_DistanceDetermination_ResearchReport.pdf`
 ❌[Khizer Rapport](./Research_reports/Template.docx) `{2}{4}`                           | ./Research_reports/`Template.docx`
 ❌[Ahmet Rapport 3](./Research_reports/Template.docx) `{13}`                            | ./Research_reports/`Template.docx`
-❌[Terrence Rapport 4](./Research_reports/Template.docx) `{13}`                         | ./Research_reports/`Template.docx`
+✅[Ethical implication of location tracking](./Research_reports/Ethical_implications_of_the_usage_of_location_trackers_for_patients_at_risk_of_wandering_v1) `{13}`   | ./Research_reports/`Ethical_implications_of_the_usage_of_location_trackers_for_patients_at_risk_of_wandering_v1`
 
 ---
 #### Scrum documentation `{6}`
