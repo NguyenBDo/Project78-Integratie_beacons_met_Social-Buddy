@@ -1,0 +1,10 @@
+# Ensure text files have LF line endings
+* text=auto
+
+# Ensure specific files have LF line endings
+*.sh text eol=lf
+*.java text eol=lf
+
+# Ensure specific files have CRLF line endings
+*.bat text eol=crlf
+*.ps1 text eol=crlf
