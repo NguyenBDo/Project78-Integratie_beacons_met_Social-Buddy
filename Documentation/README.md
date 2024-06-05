@@ -125,8 +125,8 @@ Everything research related is documenten in these reports.
 Files                                                                                   | Path
 :-------------------------------------------------------------------------------------- | :------------------------------------------------------------
 ✅[RSSI distance determination](./Research_reports/RSSI_DistanceDetermination_ResearchReport.pdf) `{13}` | ./`Research_reports/RSSI_DistanceDetermination_ResearchReport.pdf`
-✅[Khizer Rapport](./Research_reports/Distance_Determination_Tag_Research) `{2}{4}`     | ./Research_reports/`Distance_Determination_Tag_Research`
-✅[Ahmet Rapport 3](./Research_reports/experimental_research_Ahmet_Oral_1023107) `{13}` | ./Research_reports/`experimental_research_Ahmet_Oral_1023107`
+✅[Khizer Rapport](./Research_reports/Distance_Determination_Tag_Research.pdf) `{2}{4}`     | ./Research_reports/`Distance_Determination_Tag_Research.pdf`
+✅[Ahmet Rapport 3](./Research_reports/experimental_research_Ahmet_Oral_1023107.pdf) `{13}` | ./Research_reports/`experimental_research_Ahmet_Oral_1023107.pdf`
 ✅[Ethical implication of location tracking](./Research_reports/Ethical_implications_of_the_usage_of_location_trackers_for_patients_at_risk_of_wandering_v1) `{13}`   | ./Research_reports/`Ethical_implications_of_the_usage_of_location_trackers_for_patients_at_risk_of_wandering_v1`
 
 ---
