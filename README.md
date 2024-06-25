@@ -1,11 +1,5 @@
 # Integrating beacons with Social-Buddy
 
-
-
-<!-- The whole documentation are entirely written in English, 
-except some may be written in both Dutch and English when the target readers are considered. <br> -->
-<!-- > Voor netherlands, bezoek []`README_nl.md`](./README_nl.md). -->
-
 There are elderlies all over the world that feel isolated at home, 
 especially those with disabilities. Jack Jagt wants to help these people, 
 and as a result he has started 'Social Buddy'. 
@@ -61,11 +55,12 @@ https://github.com/NguyenBDo/Project78-Integratie_beacons_met_Social-Buddy
 > only if this repository is directly sent to you. Use the link instead if you are on Github.
 
 ### PROJECT VERSION
+
 ---
-| Version 	| Chance     	| End date (dd/mm/yyyy)	    |
-| :-------:	| :-----------:	| :-----------------------: |
-| 01		| 		01		| 02/06/2024 				|
-<!-- | 02  	 	| Retake (02)   | 30/06/2024				| -->
+| Version   | Chance        | End date (dd/mm/yyyy)     |
+| :-------: | :-----------: | :-----------------------: |
+| 01        | 01            | 02/06/2024                |
+| 02        | Retake (02)   | 30/06/2024                |
 
 
 
@@ -75,3 +70,8 @@ https://github.com/NguyenBDo/Project78-Integratie_beacons_met_Social-Buddy
 
 | <img src= "./README_media/Social_Buddy-logo.png" width="100" alt= "social-buddy-avatar-logo"> <img src= "./README_media/HogeschoolRotterdam_Logo.png" width="100" alt= "hogeschool-rotterdam-Logo"> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+Changes(v2):
+
+- Cleaned up folders. Changes file locations and removed duplicate files.
+- Updated 'README.md`s to reflect changes.
