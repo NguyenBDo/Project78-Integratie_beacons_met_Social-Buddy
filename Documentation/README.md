@@ -109,6 +109,7 @@ The 2 types of requirements are: Functional and Non-functional (Quality) require
 Files                                                             | Path
 :---------------------------------------------------------------- | :------------------------------
 [Requirements documentation](./Trello-planning-requirements.png)  | ./Requirements/`Trello-planning-requirements.png`
+[Requirements and features](./Features_Requirements_Resit.xlsx) | ./`Features_Requirements_Resit.xlsx`
 
 ---
 
@@ -154,3 +155,4 @@ The plans before and the reports after the tests can be found here.
 Files                                                                                   | Path
 :-------------------------------------------------------------------------------------- | :-------------------------------------------------
 [Unit test distance determination](./Tests/Testplan_en_rapport-afstandsbepaling.pdf)    | ./Tests/`Testplan_en_rapport-afstandsbepaling.pdf`
+[Test plan](./Test_plan.pdf) | ./`Test_plan.pdf

@@ -74,4 +74,6 @@ https://github.com/NguyenBDo/Project78-Integratie_beacons_met_Social-Buddy
 Changes(v2):
 
 - Cleaned up folders. Changes file locations and removed duplicate files.
+- New `Features and Requirements` document
+- New `Test plan` document
 - Updated 'README.md`s to reflect changes.
